@@ -8,12 +8,18 @@ class LoginByKeyController extends \Gems_Controller_Action
     public $loader;
 
     protected $indexParams = [
-        'loginKeyForm' => 'createLoginKeyForm',
+        'loginKeyForm'       => 'createLoginKeyForm',
         'loginStatusTracker' => 'getLoginStatusTracker',
+        'resetParam'         => 'reset',
     ];
 
     protected $indexSnippets = [
         'Login\\UserRequestLoginKeyFormSnippet',
+        'Login\\TwoFactorCheckSnippet',
+        'Login\\CheckPasswordChangeRequiredSnippet',
+        'Login\\SetAsCurrentUserSnippet',
+        'Login\\RedirectToRequestSnippet',
+        'Login\\GotoStartPageSnippet',
     ];
 
 
@@ -41,8 +47,25 @@ class LoginByKeyController extends \Gems_Controller_Action
     public function indexAction()
     {
         $this->initHtml();
-        $params = $this->_processParameters($this->indexParams);
-        $this->addSnippets($this->indexSnippets, $params);
+        if ($this->indexSnippets && $this->useHtmlView) {
+            $params = $this->_processParameters($this->indexParams);
+
+            $request = $this->getRequest();
+            $reset = (boolean) $this->request->getParam($this->indexParams['resetParam'], false);
+            if ($reset && isset($params['loginStatusTracker']) && $params['loginStatusTracker'] instanceof \Gems\User\LoginStatusTracker) {
+                $params['loginStatusTracker']->setLoginByKey(false);
+            }
+
+            $sparams['request']           = $request;
+            $sparams['resetParam']        = $params['resetParam'];
+            $sparams['snippetList']       = $this->indexSnippets;
+            $sparams['snippetLoader']     = $this->getSnippetLoader();
+            $sparams['snippetParameters'] = $params;
+
+            $this->addSnippets('SequenceSnippet', $sparams);
+
+            return;
+        }
     }
 
     /**

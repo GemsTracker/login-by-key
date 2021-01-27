@@ -53,7 +53,7 @@ class UserLoginByKeyRepository extends \MUtil_Translate_TranslateableAbstract
             ->where('gup_login_key = ?', $loginKey)
             ->where('gup_login_key_valid_until >= ?', $now->format('Y-m-d H:i:s'));
 
-        \MUtil_Echo::track($select->__toString());
+        // \MUtil_Echo::track($select->__toString());
 
         if ($row = $this->db->fetchRow($select, null, \Zend_Db::FETCH_NUM)) {
             // \MUtil_Echo::track($row);

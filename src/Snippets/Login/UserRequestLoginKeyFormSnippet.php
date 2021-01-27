@@ -36,6 +36,8 @@ class UserRequestLoginKeyFormSnippet extends FormSnippetAbstract
      */
     protected $request;
 
+    protected $resetParam;
+
     /**
      * The name of the action to forward to after form completion
      *
@@ -141,13 +143,19 @@ class UserRequestLoginKeyFormSnippet extends FormSnippetAbstract
             }
         }
 
+        if ($this->loginStatusTracker->isLoginByKey()) {
+            return false;
+        }
 
         if ($loginKey = $this->request->getParam('key')) {
+
+
             if ($this->isSuccesfullLoginByKey($loginKey)) {
-                $this->routeController = 'index';
-                $this->routeAction = 'login';
-                // Reroute (always, override function otherwise)
-                $this->setAfterSaveRoute();
+                $this->afterSaveRouteUrl = [
+                    $this->request->getControllerKey() => $this->request->getControllerName(),
+                    $this->request->getActionKey() => $this->request->getActionName(),
+                ];
+                $this->resetRoute = true;
             } else {
                 $this->addMessage($this->_('User not found'));
             }
