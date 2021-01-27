@@ -26,3 +26,4 @@ Your project should extend these, instead of the Gems or MUtil version if they e
 - User\\User : Adds the CanLoginByKey trait, giving the option to set this per user type. Currently it only returns true.
   Extend LoginByKey/User/User or add the CanLoginByKey trait.
 - TwoFactorCheckSnippet : Disables the cancel button on child menu use. Extend this class or add an empty getMenuList method.
+- User\\LoginStatusChecker : Adds LoginByKey checks. Extend this class.
