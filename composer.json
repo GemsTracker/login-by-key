@@ -1,0 +1,25 @@
+{
+    "name": "gemstracker/login-by-key",
+    "description": "Gemstracker module to enable login by magic key through mail",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Jasper van Gestel",
+            "email": "jvangestel@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.0",
+        "gemstracker/gemstracker": ">= 1.9.0 || dev-r1.9.0 || dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "LoginByKey\\": "src"
+        }
+    }
+}

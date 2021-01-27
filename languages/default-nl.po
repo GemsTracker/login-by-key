@@ -1,0 +1,439 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Gems Login by key NL\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-27 12:22+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Matijs de Jong <mjong@magnafacta.nl>\n"
+"Language-Team: Erasmus MGZ <matijs.de.jong@magnafacta.nl>\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: plural:1,2\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-SearchPath-0: src\n"
+"X-Poedit-SearchPath-1: controllers\n"
+
+#: src/ModuleSubscriber.php:38
+msgid "Login by key"
+msgstr "Login met code"
+
+#: src/Snippets/Login/UserRequestLoginKeyFormSnippet.php:70
+#: src/User/Form/LoginKeyForm.php:13
+msgid "Request login url"
+msgstr "Vraag inlog link aan"
+
+#: src/Snippets/Login/UserRequestLoginKeyFormSnippet.php:99
+msgid "Login"
+msgstr "Inloggen"
+
+#: src/Snippets/Login/UserRequestLoginKeyFormSnippet.php:152
+msgid "CanLoginByKeyTrait not found"
+msgstr ""
+
+#: src/Snippets/Login/UserRequestLoginKeyFormSnippet.php:172
+msgid "For that reason you cannot request a login key."
+msgstr ""
+
+#: src/Snippets/Login/UserRequestLoginKeyFormSnippet.php:193
+msgid ""
+"If the entered username or e-mail is valid, we have sent you an e-mail with "
+"a login link. Click on the link in the e-mail."
+msgstr ""
+
+#: src/Snippets/Login/UserRequestLoginKeyFormSnippet.php:214
+msgid "Create account mail sent"
+msgstr ""
+
+#: src/Snippets/Login/UserRequestLoginKeyFormSnippet.php:217
+#: src/User/UserLoginByKeyRepository.php:145
+msgid "No default Create Account mail template set in organization or project"
+msgstr ""
+
+#: src/User/Form/LoginKeyForm.php:30
+msgid "Email or username"
+msgstr ""
+
+#: src/User/UserLoginByKeyRepository.php:159
+msgid "hour"
+msgid_plural "hour"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/User/UserLoginByKeyRepository.php:162
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/User/UserLoginByKeyRepository.php:168
+msgid "day"
+msgid_plural "days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/User/Validate/UserKeyRequestValidator.php:84
+msgid ""
+"CanLoginByKeyTrait not found or no e-mail address known or user cannot login."
+msgstr ""
+
+#, fuzzy
+#~| msgid "Changed by"
+#~ msgid "Change type"
+#~ msgstr "Veranderd door"
+
+#, fuzzy
+#~| msgid "Changed on"
+#~ msgid "Change reason"
+#~ msgstr "Veranderd op"
+
+#, fuzzy
+#~| msgid "Active"
+#~ msgid "Action"
+#~ msgstr "Actief"
+
+#~ msgid "Active"
+#~ msgstr "Actief"
+
+#, fuzzy
+#~| msgid "Changed on"
+#~ msgid "Changes"
+#~ msgstr "Veranderd op"
+
+#, fuzzy
+#~| msgid "Block randomization explanation"
+#~ msgid "Diagnosis change explanantion"
+#~ msgstr "Blok randomisatie uitleg"
+
+#~ msgid "Direct import"
+#~ msgstr "Directe import"
+
+#~ msgid "Assignments"
+#~ msgstr "Toewijzingen"
+
+#~ msgid "randomization block"
+#~ msgid_plural "randomization blocks"
+#~ msgstr[0] "randomisatie blok"
+#~ msgstr[1] "randomisatie blokken"
+
+#~ msgid "Strata"
+#~ msgstr "Strata"
+
+#~ msgid "stratum"
+#~ msgid_plural "strata"
+#~ msgstr[0] "stratum"
+#~ msgstr[1] "strata"
+
+#~ msgid "Randomization studies"
+#~ msgstr "Randomisatie studies"
+
+#~ msgid "randomization study"
+#~ msgid_plural "randomization studies"
+#~ msgstr[0] "randomisatie studie"
+#~ msgstr[1] "randomisatie studies"
+
+#~ msgid "Randomization values"
+#~ msgstr "Randomisatie waarden"
+
+#~ msgid "randomization value"
+#~ msgid_plural "randomization values"
+#~ msgstr[0] "randomisatie waarde"
+#~ msgstr[1] "randomisatie waarden"
+
+#~ msgid "Study name"
+#~ msgstr "Studienaam"
+
+#~ msgid "The study name is used to group blocks."
+#~ msgstr "De studienaam wordt gebruikt om blokken te groeperen."
+
+#~ msgid "Stratum / condition"
+#~ msgstr "Stratum / voorwaarde"
+
+#~ msgid "A stratum is a track level condition."
+#~ msgstr "Een stratum is een voorwaarde op traject niveau."
+
+#~ msgid "If it does not exist it will be created as an inactive condition."
+#~ msgstr ""
+#~ "Als de voorwaarde niet bestaat wordt een inactieve voorwaarde aangemaakt."
+
+#~ msgid "See Track builder: Conditions."
+#~ msgstr "Zie Trajectbouwer: Voorwaarden."
+
+#~ msgid "Assignment id"
+#~ msgstr "Toewijzings id"
+
+#~ msgid "A unique name identifying the randomization value."
+#~ msgstr "Een unieke naam die de randomisatie indentificeerd."
+
+#~ msgid "Selection order"
+#~ msgstr "Volgorde van selectie"
+
+#~ msgid "The order of use within a study, leave empty to add to end of stack."
+#~ msgstr ""
+#~ "De gebruiksvolgorde binnen een studie. Leeglaten om als laatste in te "
+#~ "voegen."
+
+#~ msgid ""
+#~ "The order of use within a study, leave empty to add by order of import."
+#~ msgstr ""
+#~ "De gebruiksvolgorde binnen een studie. Leeglaten om op volgorde van "
+#~ "import in te voegen."
+
+#~ msgid "Assign value"
+#~ msgstr "Toewijs waarde"
+
+#~ msgid "The outcome value assigned to a randomization."
+#~ msgstr "De uitkomst waarde bij randomizeren."
+
+#~ msgid "Block Description"
+#~ msgstr "Blok omschrijving"
+
+#~ msgid "Optional block description, not used by GemsTracker"
+#~ msgstr ""
+#~ "Optionele omschrijving voor het blok, niet gebruikt door GemsTracker"
+
+#~ msgid "Optional extra information, not used by GemsTracker"
+#~ msgstr "Optionele extra informatie, niet gebruikt door GemsTracker"
+
+#~ msgid "Block Info"
+#~ msgstr "Blok informatie"
+
+#~ msgid "Usage"
+#~ msgstr "Gebruik"
+
+#~ msgid "Maximum"
+#~ msgstr "Maximum"
+
+#~ msgid "0 means unlimited use"
+#~ msgstr "0 betekent onbeperkt gebruik"
+
+#~ msgid "Used"
+#~ msgstr "Gebruikt"
+
+#~ msgid "Unused"
+#~ msgstr "Ongebruikt"
+
+#~ msgid "Total"
+#~ msgstr "Totaal"
+
+#~ msgid "Randomization export value"
+#~ msgstr "Randomisatie export waarde"
+
+#~ msgid "The outcome value assigned to a randomization, used for export."
+#~ msgstr "De uitkomst waarde bij randomiseren, gebruikt voor export."
+
+#~ msgid "Randomization value label"
+#~ msgstr "Randomisatie waarde weergave"
+
+#~ msgid "The outcome label shown in the field."
+#~ msgstr "De uitkomstwaarde getoond in  het veld."
+
+#~ msgid "Block randomization"
+#~ msgstr "Blok randomizatie"
+
+#~ msgid "Studies"
+#~ msgstr "Studies"
+
+#~ msgid "Reset study"
+#~ msgstr "Reset studie"
+
+#~ msgid "Values"
+#~ msgstr "Waarden"
+
+#~ msgid "Grant right to see the outcome of a randomization."
+#~ msgstr "Heeft het recht randomisatie uitkomsten te zien."
+
+#~ msgid "Randomization"
+#~ msgstr "Randomisatie"
+
+#~ msgid ""
+#~ "Block randomization is used to automatically assign randomization "
+#~ "outcomes to track fields."
+#~ msgstr ""
+#~ "Blok randomisatie wordt gebruikt om automatisch randomisatie uitkomsten "
+#~ "aan trajectvelden toe te wijzen."
+
+#~ msgid ""
+#~ "The randomization outcome is the free assignment with the lowest "
+#~ "selection order, if the track is valid for the assigment stratum."
+#~ msgstr ""
+#~ "De randomisatie uitkomst is een toewijzing die nog gebruikt kan worden "
+#~ "met de laagste volgorde, indien het traject aan het stratum voldoet."
+
+#~ msgid "Step 1: Create a study"
+#~ msgstr "Stap 1: Maak een studie"
+
+#~ msgid ""
+#~ "Studies are just labels to allow multiple randomizations in a project."
+#~ msgstr ""
+#~ "Studies zijn eenvoudige labels die meerdere randomisaties in een project "
+#~ "mogelijk maken."
+
+#~ msgid ""
+#~ "If an assignment import contains a new study it will automatically be "
+#~ "created."
+#~ msgstr ""
+#~ "Als de import van toewijzingen een nieuwe studie bevat, wordt deze "
+#~ "gecreëerd."
+
+#~ msgid "Step 2: Create / design strata"
+#~ msgstr "Stap 2: Maak / ontwerp strata"
+
+#~ msgid "Strata are track-level conditions."
+#~ msgstr "Strata zijn voorwaarden op traject niveau."
+
+#~ msgid ""
+#~ "You can create these conditions both here and in the Track builder "
+#~ "Conditions page."
+#~ msgstr ""
+#~ "Deze trajectvoorwaarden kunnen zowel hier als op de Trajectbouwer "
+#~ "Voorwaarden pagina gemaakt worden."
+
+#~ msgid "Create a track condition on age, location, etc..."
+#~ msgstr "Creëer een trajectvoorwaarde op leeftijd, vestiging, etc..."
+
+#~ msgid ""
+#~ "If an assignment import contains a new stratum an inactive skeleton "
+#~ "stratum will automatically be created."
+#~ msgstr ""
+#~ "Als de import van toewijzingen een nieuw stratum bevat, wordt automatisch "
+#~ "een inactief skelet stratum gecreëerd."
+
+#~ msgid "Step 3: Determine the outcome values"
+#~ msgstr "Stap 3: Bepaal de uitkomst waarden"
+
+#~ msgid "Per study you can define the outcome values used."
+#~ msgstr "Per studie kan je aangeven welke uitkomstwaarden gebruikt worden."
+
+#~ msgid "The export values must be unique per study."
+#~ msgstr "De export waarden moeten uniek zijn binnen een studie."
+
+#~ msgid ""
+#~ "The label value is what is shown to the users who are allowed to see the "
+#~ "the outcomes."
+#~ msgstr ""
+#~ "De weergave waarde is wat de gebruikers zien die de uitkomst mogen "
+#~ "inkijken."
+
+#~ msgid ""
+#~ "If an assignment import contains a new value, this value will be created."
+#~ msgstr ""
+#~ "Als de import van toewijzingen een nieuwe waarde bevat, wordt deze waarde "
+#~ "automatisch gecreëerd."
+
+#~ msgid "Step 4: Create assignments"
+#~ msgstr "Stap 4: Creëer de toewijzingen"
+
+#~ msgid "Randomization values are assigned from the assignments table."
+#~ msgstr ""
+#~ "Randomisatie uitkomsten worden toegewezen middels de tabel met "
+#~ "toewijzingen."
+
+#~ msgid "Assignments have to satisfy a stratum to be used."
+#~ msgstr "Toewijzingen moeten voldoen aan een stratum om gebruikt te worden."
+
+#~ msgid ""
+#~ "The assignment with the lowest order that has free uses is used first."
+#~ msgstr ""
+#~ "De toewijzing met de laagste volgorde en die nog gebruikt kan worden, "
+#~ "wordt als eerste gebruikt."
+
+#~ msgid "The id and value of a used assignment cannot be changed."
+#~ msgstr ""
+#~ "Het id en de waarde van een gebruikte toewijzing kunnen niet verandert "
+#~ "worden."
+
+#~ msgid ""
+#~ "During assignment import you can fill this table without first taking the "
+#~ "other steps."
+#~ msgstr ""
+#~ "Tijdens het importeren van toewijzingen kan je de hele tabel vullen "
+#~ "zonder de eerdere stappen te nemen."
+
+#~ msgid "Step 5: Create the track fields"
+#~ msgstr "Stap 5: Creëer de traject velden"
+
+#~ msgid ""
+#~ "To use randomization values with a track, add a Randomization type track "
+#~ "field."
+#~ msgstr ""
+#~ "Om randomisatie waarden toe te wijzen aan een traject, voeg een "
+#~ "trajectveld toe van het type Randomisatie."
+
+#~ msgid ""
+#~ "Make sure all fields used by strata are placed before the Randomization "
+#~ "field."
+#~ msgstr ""
+#~ "Let er op dat de velden die gebruikt worden door de strata voor het "
+#~ "Randomisatie veld staan."
+
+#~ msgid "Select a study to use, you may use one study in multiple fields."
+#~ msgstr ""
+#~ "Selecteer een studie voor gebruik, ja kan een studie kan gebruiken bij "
+#~ "meerdere velden."
+
+#~ msgid "(all studies)"
+#~ msgstr "(alle studies)"
+
+#~ msgid "(all strata)"
+#~ msgstr "(alle strata)"
+
+#~ msgid "Maxed out"
+#~ msgstr "Opgebruikt"
+
+#~ msgid "Unlimited use"
+#~ msgstr "Onbeperkt gebruik"
+
+#~ msgid "(any usage)"
+#~ msgstr "(elk gebruik)"
+
+#~ msgid "(any active)"
+#~ msgstr "(elke actief)"
+
+#~ msgid "Reset the study NOW!"
+#~ msgstr "Reset de studie METEEN!"
+
+#~ msgid "Enter the name of the study"
+#~ msgstr "Type de naam van de studie"
+
+#~ msgid ""
+#~ "Resetting a study clears all randomization assignments to track fields."
+#~ msgstr ""
+#~ "Bij een studie-reset worden alle toewijzingen van randomisatie uitkomsten "
+#~ "aan trajectvelden leeg gemaakt."
+
+#~ msgid "'%value%' is not an existing study!"
+#~ msgstr "'%value%' bestaat niet als studie!"
+
+#~ msgid "Do you want to reset a study?"
+#~ msgstr "Wil u een studie resetten?"
+
+#, php-format
+#~ msgid "Reset all randomization values for study %s."
+#~ msgstr "Alle randomisatie waarden voor studie %s zijn gereset."
+
+#, php-format
+#~ msgid "Reset %d assignment(s) and %d track field(s)."
+#~ msgstr "Reset uitgevoerd op %d toewijzing(en) and %d trajectveld(en)."
+
+#~ msgid "Study Blocks"
+#~ msgstr "Studie blokken"
+
+#~ msgid "Select the study name for this randomization"
+#~ msgstr "Kies de studienaam voor deze randomizatie"
+
+#~ msgid "Block id"
+#~ msgstr "Blok id"
+
+#~ msgid "Block value"
+#~ msgstr "Blok waarde"
+
+#~ msgid " - outcomes: "
+#~ msgstr " - uitkomsten: "
+
+#~ msgid "Select the track conditions for selected strata"
+#~ msgstr "Kies de trajectvoorwaarde voor geselecteerde strata"

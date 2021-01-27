@@ -1,0 +1,967 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Gems Login by keyEN\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-15 14:53+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Matijs de Jong <mjong@magnafacta.nl>\n"
+"Language-Team: Erasmus MGZ <matijs.de.jong@magnafacta.nl>\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: plural:1,2\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-SearchPath-0: src\n"
+"X-Poedit-SearchPath-1: controllers\n"
+
+#: src/DiagnoseActionCreator.php:92
+#, php-format
+msgid "[b]ERROR:[/b] unknown track id '%s' for: %s"
+msgstr "[b]ERROR:[/b] unknown track id '%s' for: %s"
+
+#: src/DiagnoseActionCreator.php:107
+#, php-format
+msgid "[b]ERROR:[/b] unknown track id 2 '%s' for: %s"
+msgstr "[b]ERROR:[/b] unknown track id 2 '%s' for: %s"
+
+#: src/DiagnoseActionCreator.php:155
+msgid ""
+"The track for diagnosis [b]%diagnosis%[/b] will be stopped, with code "
+"'[b]stop[/b]'."
+msgstr ""
+"The track for diagnosis [b]%diagnosis%[/b] will be stopped, with code "
+"'[b]stop[/b]'."
+
+#: src/DiagnoseActionCreator.php:162
+msgid ""
+"The track for diagnosis [b]%diagnosis%[/b] will be stopped, with code "
+"'[b]error[/b]'."
+msgstr ""
+"The track for diagnosis [b]%diagnosis%[/b] will be stopped, with code "
+"'[b]error[/b]'."
+
+#: src/DiagnoseActionCreator.php:171
+msgid ""
+"A [b]new %subject% %type% track[/b] is created for diagnosis [b]%diagnosis%[/"
+"b] with priority %prio%."
+msgstr ""
+"A [b]new %subject% %type% track[/b] is created for diagnosis [b]%diagnosis%[/"
+"b] with priority %prio%."
+
+#: src/DiagnoseActionCreator.php:176
+msgid ""
+"A [b]new %subject% %type% track[/b] is created for diagnosis [b]%diagnosis%[/"
+"b]."
+msgstr ""
+"A [b]new %subject% %type% track[/b] is created for diagnosis [b]%diagnosis%[/"
+"b]."
+
+#: src/DiagnoseActionCreator.php:182
+msgid ""
+"The treatment for the new diagnosis [b]%diagnosis%[/b] will be [b]%treatment"
+"%[/b]."
+msgstr ""
+"The treatment for the new diagnosis [b]%diagnosis%[/b] will be [b]%treatment"
+"%[/b]."
+
+#: src/DiagnoseActionCreator.php:188
+msgid ""
+"The the new diagnosis [b]%diagnosis%[/b] will start at [b]%startdate%[/b]."
+msgstr ""
+"The the new diagnosis [b]%diagnosis%[/b] will start at [b]%startdate%[/b]."
+
+#: src/DiagnoseActionCreator.php:199
+msgid ""
+"The [b]new %subject% %type%[/b] track with diagnosis [b]%diagnosis%[/b] will "
+"become the [i]new active track/diagnosis[/i]."
+msgstr ""
+"The [b]new %subject% %type%[/b] track with diagnosis [b]%diagnosis%[/b] will "
+"become the [i]new active track/diagnosis[/i]."
+
+#: src/DiagnoseActionCreator.php:204
+msgid ""
+"The [b]existing %subject% %type%[/b] track with diagnosis [b]%diagnosis%[/b] "
+"will become the [i]new active track/diagnosis[/i]."
+msgstr ""
+"The [b]existing %subject% %type%[/b] track with diagnosis [b]%diagnosis%[/b] "
+"will become the [i]new active track/diagnosis[/i]."
+
+#: src/DiagnoseActionCreator.php:210
+msgid ""
+"The [b]new %subject% %type%[/b] track with diagnosis [b]%diagnosis%[/b] will "
+"be the [i]new active track/diagnosis[/i]."
+msgstr ""
+"The [b]new %subject% %type%[/b] track with diagnosis [b]%diagnosis%[/b] will "
+"be the [i]new active track/diagnosis[/i]."
+
+#: src/DiagnoseActionCreator.php:216
+msgid ""
+"The [b]existing %subject% %type%[/b] track with diagnosis [b]%diagnosis%[/b] "
+"will remain the [i]active track/diagnosis[/i]."
+msgstr ""
+"The [b]existing %subject% %type%[/b] track with diagnosis [b]%diagnosis%[/b] "
+"will remain the [i]active track/diagnosis[/i]."
+
+#: src/DiagnoseActionCreator.php:225
+msgid ""
+"The new track for diagnosis [b]%diagnosis%[/b] will be set to [b]staff only[/"
+"b]."
+msgstr ""
+"The new track for diagnosis [b]%diagnosis%[/b] will be set to [b]staff only[/"
+"b]."
+
+#: src/DiagnoseActionCreator.php:232
+msgid ""
+"The track for diagnosis [b]%diagnosis%[/b] will be set to [i]Staff only[/i]."
+msgstr ""
+"The track for diagnosis [b]%diagnosis%[/b] will be set to [i]Staff only[/i]."
+
+#: src/DiagnoseActionCreator.php:242
+msgid ""
+"The [b]latest[/b] tokens in the track for diagnosis [b]%diagnosis%[/b] will "
+"be [b]copied[/b] to the new track for the diagnosis [b]%diagnosis2%[/b]."
+msgstr ""
+"The [b]latest[/b] tokens in the track for diagnosis [b]%diagnosis%[/b] will "
+"be [b]copied[/b] to the new track for the diagnosis [b]%diagnosis2%[/b]."
+
+#: src/DiagnoseActionCreator.php:249
+msgid ""
+"[b]All tokens[/b] in the track for diagnosis [b]%diagnosis%[/b] will be "
+"[b]copied[/b] to the new track for the diagnosis [b]%diagnosis2%[/b]."
+msgstr ""
+"[b]All tokens[/b] in the track for diagnosis [b]%diagnosis%[/b] will be "
+"[b]copied[/b] to the new track for the diagnosis [b]%diagnosis2%[/b]."
+
+#: src/DiagnoseActionCreator.php:255
+msgid "[b]All[/b] current tracks will [b]link[/b] to the [b]new track[/b]."
+msgstr "[b]All[/b] current tracks will [b]link[/b] to the [b]new track[/b]."
+
+#: src/DiagnoseActionCreator.php:262
+#, php-format
+msgid "The remaining %d track(s) will link to the new Active track."
+msgstr "The remaining %d track(s) will link to the new Active track."
+
+#: src/Event/Survey/BeforeAnswering/GetPreviousPsfsInTrack.php:21
+msgid "Previous PSFS lookup in track"
+msgstr "Previous PSFS lookup in track"
+
+#: src/Event/Survey/BeforeAnswering/GetTrackfieldSide.php:31
+msgid "Copy trackfield 'side' to surveyquestion with 'side' code"
+msgstr "Copy trackfield 'side' to surveyquestion with 'side' code"
+
+#: src/Event/Survey/Display/OnlyRelevantPsfs.php:77
+msgid "Show only the final choices (PSFS)"
+msgstr "Show only the final choices (PSFS)"
+
+#: src/Event/Track/BeforeFieldUpdate/PrimarySecondaryDiagCheck.php:34
+msgid ""
+"Check priority on primary and secondary tracks and switch them if needed"
+msgstr ""
+"Check priority on primary and secondary tracks and switch them if needed"
+
+#: src/Model/Dependency/DiagnosisChangeDescriptionDependency.php:59
+msgid "unknown"
+msgstr "unknown"
+
+#: src/Model/Dependency/DiagnosisChangeDescriptionDependency.php:71
+msgid "a diagnosis changes because of change in situation"
+msgstr "a diagnosis changes because of change in situation"
+
+#: src/Model/Dependency/DiagnosisChangeDescriptionDependency.php:74
+msgid "a diagnosis changes because the old was incorrect"
+msgstr "a diagnosis changes because the old was incorrect"
+
+#: src/Model/Dependency/DiagnosisChangeDescriptionDependency.php:79
+#: src/Model/Dependency/DiagnosisChangeDescriptionDependency.php:89
+msgid "a new diagnosis is added because of change in situation"
+msgstr "a new diagnosis is added because of change in situation"
+
+#: src/Model/Dependency/DiagnosisChangeDescriptionDependency.php:86
+msgid "a new diagnosisis added because of change in situation"
+msgstr "a new diagnosisis added because of change in situation"
+
+#: src/Model/Dependency/DiagnosisChangeDescriptionDependency.php:98
+msgid "removing a wrong diagnosis"
+msgstr "removing a wrong diagnosis"
+
+#: src/Model/Dependency/DiagnosisChangeDescriptionDependency.php:101
+msgid "change in patient invalidates diagnosis"
+msgstr "change in patient invalidates diagnosis"
+
+#: src/Model/Dependency/DiagnosisChangeDescriptionDependency.php:104
+msgid "doing nothing"
+msgstr "doing nothing"
+
+#: src/Model/Diagnosis2TrackModel.php:33 src/ModuleSubscriber.php:76
+#: src/Snippets/Diagnosis/DiagnosisChangeSnippet.php:863
+msgid "Diagnosis"
+msgstr "Diagnosis"
+
+#: src/Model/Diagnosis2TrackModel.php:34
+msgid "Name of the diagnosis"
+msgstr "Name of the diagnosis"
+
+#: src/Model/Diagnosis2TrackModel.php:37 src/Model/TreatmentModel.php:30
+msgid "Group"
+msgstr "Group"
+
+#: src/Model/Diagnosis2TrackModel.php:38
+msgid "The group this diagnosis belongs to"
+msgstr "The group this diagnosis belongs to"
+
+#: src/Model/Diagnosis2TrackModel.php:62
+#: src/Model/Diagnosis2TreatmentLinkModel.php:36 src/ModuleSubscriber.php:47
+msgid "Treatments"
+msgstr "Treatments"
+
+#: src/Model/Diagnosis2TrackModel.php:73
+msgid "Track"
+msgstr "Track"
+
+#: src/Model/Diagnosis2TrackModel.php:74
+msgid "The track that should be created"
+msgstr "The track that should be created"
+
+#: src/Model/Diagnosis2TrackModel.php:79
+#: src/Snippets/Diagnosis/DiagnosisChangeSnippet.php:871
+msgid "Track subject"
+msgstr "Track subject"
+
+#: src/Model/Diagnosis2TrackModel.php:80
+msgid "The track subject that should be set"
+msgstr "The track subject that should be set"
+
+#: src/Model/Diagnosis2TrackModel.php:85
+msgid "Track type"
+msgstr "Track type"
+
+#: src/Model/Diagnosis2TrackModel.php:86
+msgid "The track type that should be entered in the track field"
+msgstr "The track type that should be entered in the track field"
+
+#: src/Model/Diagnosis2TrackModel.php:91
+#: src/Snippets/Diagnosis/DiagnosisChangeSnippet.php:867
+msgid "Priority"
+msgstr "Priority"
+
+#: src/Model/Diagnosis2TrackModel.php:92
+msgid "Order in which these items are processed. Lower is higher priority"
+msgstr "Order in which these items are processed. Lower is higher priority"
+
+#: src/Model/Diagnosis2TreatmentLinkModel.php:35
+#: src/Model/TreatmentModel.php:26
+#: src/Snippets/Diagnosis/DiagnosisChangeSnippet.php:869
+msgid "Treatment"
+msgstr "Treatment"
+
+#: src/Model/DiagnosisChangeModel.php:115
+msgid "Adding"
+msgstr "Adding"
+
+#: src/Model/DiagnosisChangeModel.php:116
+msgid "Is there a new or changed diagnosis?"
+msgstr "Is there a new or changed diagnosis?"
+
+#: src/Model/DiagnosisChangeModel.php:122
+msgid "Reason for addition"
+msgstr "Reason for addition"
+
+#: src/Model/DiagnosisChangeModel.php:125
+msgid "Changed patient situation"
+msgstr "Changed patient situation"
+
+#: src/Model/DiagnosisChangeModel.php:125
+msgid "The new diagnosis was overlooked"
+msgstr "The new diagnosis was overlooked"
+
+#: src/Model/DiagnosisChangeModel.php:129
+#| msgid "Changed by"
+msgid "Change type"
+msgstr "Change type"
+
+#: src/Model/DiagnosisChangeModel.php:130
+msgid "Is the diagnosis new?"
+msgstr "Is the diagnosis new?"
+
+#: src/Model/DiagnosisChangeModel.php:132
+msgid "Change of current diagnosis"
+msgstr "Change of current diagnosis"
+
+#: src/Model/DiagnosisChangeModel.php:132
+msgid "New additional diagnosis"
+msgstr "New additional diagnosis"
+
+#: src/Model/DiagnosisChangeModel.php:136
+#| msgid "Changed on"
+msgid "Change reason"
+msgstr "Change reason"
+
+#: src/Model/DiagnosisChangeModel.php:139
+msgid "The new diagnosis is better than the old diagnosis"
+msgstr "The new diagnosis is better than the old diagnosis"
+
+#: src/Model/DiagnosisChangeModel.php:139
+msgid "The old diagnosis was incorrect"
+msgstr "The old diagnosis was incorrect"
+
+#: src/Model/DiagnosisChangeModel.php:143
+msgid "Removing"
+msgstr "Removing"
+
+#: src/Model/DiagnosisChangeModel.php:144
+msgid "Why are we removing a diagnosis?"
+msgstr "Why are we removing a diagnosis?"
+
+#: src/Model/DiagnosisChangeModel.php:146
+msgid "The old diagnosis was wrong"
+msgstr "The old diagnosis was wrong"
+
+#: src/Model/DiagnosisChangeModel.php:146
+msgid "The patient situation changed"
+msgstr "The patient situation changed"
+
+#: src/Model/DiagnosisChangeModel.php:146
+msgid "Not removing"
+msgstr "Not removing"
+
+#: src/Model/DiagnosisChangeModel.php:185
+#| msgid "Active"
+msgid "Action"
+msgstr "Action"
+
+#: src/Model/DiagnosisChangeModel.php:191
+msgid "New diagnosis date"
+msgstr "New diagnosis date"
+
+#: src/Model/DiagnosisChangeModel.php:194
+#: src/Snippets/Diagnosis/DiagnosisChangeSnippet.php:428
+msgid "New diagnosis"
+msgstr "New diagnosis"
+
+#: src/Model/DiagnosisChangeModel.php:196
+#: src/Snippets/Diagnosis/DiagnosisChangeSnippet.php:448
+msgid "New treatment"
+msgstr "New treatment"
+
+#: src/Model/DiagnosisChangeModel.php:216
+msgid "Stop."
+msgstr "Stop."
+
+#: src/Model/DiagnosisChangeModel.php:217
+msgid "Current diagnosis is in error or treatment was stopped"
+msgstr "Current diagnosis is in error or treatment was stopped"
+
+#: src/Model/DiagnosisChangeModel.php:219
+msgid "Correct error."
+msgstr "Correct error."
+
+#: src/Model/DiagnosisChangeModel.php:220
+msgid "The current diagnosis is in error, a new one should replace it."
+msgstr "The current diagnosis is in error, a new one should replace it."
+
+#: src/Model/DiagnosisChangeModel.php:222
+msgid "New diagnosis."
+msgstr "New diagnosis."
+
+#: src/Model/DiagnosisChangeModel.php:223
+msgid "A new diagnosis has BEEN ESTABLISHED and should be added."
+msgstr "A new diagnosis has BEEN ESTABLISHED and should be added."
+
+#: src/Model/DiagnosisChangeModel.php:225
+msgid "Missed diagnosis."
+msgstr "Missed diagnosis."
+
+#: src/Model/DiagnosisChangeModel.php:226
+msgid "A diagnosis has been MISSED until now and should be added."
+msgstr "A diagnosis has been MISSED until now and should be added."
+
+#: src/Model/SurveyMaintenanceModel.php:18
+msgid "Survey copy validity"
+msgstr "Survey copy validity"
+
+#: src/Model/SurveyMaintenanceModel.php:19
+msgid "Number of days this survey can be copied to another linked track"
+msgstr "Number of days this survey can be copied to another linked track"
+
+#: src/Model/TreatmentModel.php:27
+msgid "Name of the treatment"
+msgstr "Name of the treatment"
+
+#: src/Model/TreatmentModel.php:31
+msgid "The group this treatment belongs to"
+msgstr "The group this treatment belongs to"
+
+#: src/Model/TreatmentModel.php:37
+#: src/Snippets/Diagnosis/DiagnosisChangeSnippet.php:1014
+msgid "Active"
+msgstr "Active"
+
+#: src/Model/TreatmentModel.php:38
+msgid "Is this treatment active"
+msgstr "Is this treatment active"
+
+#: src/ModuleSubscriber.php:46
+msgid "Diagnosis Tracks"
+msgstr "Diagnosis Tracks"
+
+#: src/ModuleSubscriber.php:50
+msgid "Diagnosis..."
+msgstr "Diagnosis..."
+
+#: src/ModuleSubscriber.php:77
+msgid "Treatment from diagnosis"
+msgstr "Treatment from diagnosis"
+
+#: src/ModuleSubscriber.php:78
+msgid "Track type from diagnoses"
+msgstr "Track type from diagnoses"
+
+#: src/Snippets/Diagnosis/DiagnosisChangeSnippet.php:142
+msgid "Current situation"
+msgstr "Current situation"
+
+#: src/Snippets/Diagnosis/DiagnosisChangeSnippet.php:149
+msgid "No current diagnosis."
+msgstr "No current diagnosis."
+
+#: src/Snippets/Diagnosis/DiagnosisChangeSnippet.php:182
+#: src/Snippets/Diagnosis/DiagnosisChangeSnippet.php:874
+msgid "Start date"
+msgstr "Start date"
+
+#: src/Snippets/Diagnosis/DiagnosisChangeSnippet.php:196
+msgid "Implement changes!"
+msgstr "Implement changes!"
+
+#: src/Snippets/Diagnosis/DiagnosisChangeSnippet.php:231
+msgid "Add..."
+msgstr "Add..."
+
+#: src/Snippets/Diagnosis/DiagnosisChangeSnippet.php:251
+#: src/Snippets/Diagnosis/DiagnosisChangeSnippet.php:322
+#| msgid "Changed on"
+msgid "Changes"
+msgstr "Changes"
+
+#: src/Snippets/Diagnosis/DiagnosisChangeSnippet.php:270
+msgid "Remove..."
+msgstr "Remove..."
+
+#: src/Snippets/Diagnosis/DiagnosisChangeSnippet.php:341
+msgid "Reason diagnosis removal"
+msgstr "Reason diagnosis removal"
+
+#: src/Snippets/Diagnosis/DiagnosisChangeSnippet.php:343
+#, php-format
+msgid "Was this a misdiagnosis at %s when %s was diagnosed?"
+msgstr "Was this a misdiagnosis at %s when %s was diagnosed?"
+
+#: src/Snippets/Diagnosis/DiagnosisChangeSnippet.php:364
+msgid "Replacement diagnosis"
+msgstr "Replacement diagnosis"
+
+#: src/Snippets/Diagnosis/DiagnosisChangeSnippet.php:366
+#, php-format
+msgid "Is this a replacement for the %s diagnosis?"
+msgstr "Is this a replacement for the %s diagnosis?"
+
+#: src/Snippets/Diagnosis/DiagnosisChangeSnippet.php:439
+msgid "Only one diagnosis can be added!"
+msgstr "Only one diagnosis can be added!"
+
+#: src/Snippets/Diagnosis/DiagnosisChangeSnippet.php:477
+msgid "Add new diagnosis"
+msgstr "Add new diagnosis"
+
+#: src/Snippets/Diagnosis/DiagnosisChangeSnippet.php:480
+msgid "No new diagnosis"
+msgstr "No new diagnosis"
+
+#: src/Snippets/Diagnosis/DiagnosisChangeSnippet.php:492
+msgid "Remove diagnosis"
+msgstr "Remove diagnosis"
+
+#: src/Snippets/Diagnosis/DiagnosisChangeSnippet.php:494
+msgid "No diagnosis to be removed"
+msgstr "No diagnosis to be removed"
+
+#: src/Snippets/Diagnosis/DiagnosisChangeSnippet.php:509
+msgid "Only one diagnosis can be removed!"
+msgstr "Only one diagnosis can be removed!"
+
+#: src/Snippets/Diagnosis/DiagnosisChangeSnippet.php:865
+#: src/Snippets/Tracker/Answers/PsfsAnswerModelSnippet.php:27
+msgid "Status"
+msgstr "Status"
+
+#: src/Snippets/Diagnosis/DiagnosisChangeSnippet.php:882
+msgid "Info"
+msgstr "Info"
+
+#: src/Snippets/Diagnosis/DiagnosisChangeSnippet.php:972
+msgid "Diagnosis change"
+msgstr "Diagnosis change"
+
+#: src/Snippets/Diagnosis/DiagnosisChangeSnippet.php:983
+msgid "diagnosis"
+msgid_plural "diagnosis"
+msgstr[0] "diagnosis"
+msgstr[1] "diagnosis"
+
+#: src/Snippets/Diagnosis/DiagnosisChangeSnippet.php:1012
+msgid "Staff only"
+msgstr "Staff only"
+
+#: src/Snippets/Diagnosis/DiagnosisChangeSnippet.php:1091
+msgid "none"
+msgstr "none"
+
+#: src/Snippets/Diagnosis/DiagnosisInformationSnippet.php:43
+#| msgid "Block randomization explanation"
+msgid "Diagnosis change explanantion"
+msgstr "Diagnosis change explanantion"
+
+#: src/Snippets/Diagnosis/DiagnosisInformationSnippet.php:45
+msgid "Maximally one diagnosis can be removed and/or added at a time."
+msgstr "Maximally one diagnosis can be removed and/or added at a time."
+
+#: src/Snippets/Diagnosis/DiagnosisInformationSnippet.php:47
+msgid "Reasons for removing a diagnosis"
+msgstr "Reasons for removing a diagnosis"
+
+#: src/Snippets/Diagnosis/DiagnosisInformationSnippet.php:50
+msgid ""
+"Misdiagnosis: diagnostics show that the current diagnosis was wring from the "
+"start."
+msgstr ""
+"Misdiagnosis: diagnostics show that the current diagnosis was wring from the "
+"start."
+
+#: src/Snippets/Diagnosis/DiagnosisInformationSnippet.php:51
+msgid ""
+"Changing diagnosis: the diagnosis was correct when established, it is not "
+"correct anymore (for whatever reason)."
+msgstr ""
+"Changing diagnosis: the diagnosis was correct when established, it is not "
+"correct anymore (for whatever reason)."
+
+#: src/Snippets/Diagnosis/DiagnosisInformationSnippet.php:53
+msgid ""
+"DO NOT remove a diagnosis when treatment effects have resolved the diagnosis."
+msgstr ""
+"DO NOT remove a diagnosis when treatment effects have resolved the diagnosis."
+
+#: src/Snippets/Diagnosis/DiagnosisInformationSnippet.php:55
+msgid "Reasons for adding a diagnosis"
+msgstr "Reasons for adding a diagnosis"
+
+#: src/Snippets/Diagnosis/DiagnosisInformationSnippet.php:58
+msgid ""
+"Adding: a completely new diagnosis has been established, which is not listed "
+"in the table above (current situation)."
+msgstr ""
+"Adding: a completely new diagnosis has been established, which is not listed "
+"in the table above (current situation)."
+
+#: src/Snippets/Diagnosis/DiagnosisInformationSnippet.php:59
+msgid ""
+"Replacing: a new diagnosis has been established which takes over the role of "
+"a previously established diagnosis."
+msgstr ""
+"Replacing: a new diagnosis has been established which takes over the role of "
+"a previously established diagnosis."
+
+#: src/Snippets/Tracker/Answers/PsfsAnswerModelSnippet.php:28
+msgid "OK"
+msgstr "OK"
+
+#: src/Snippets/Tracker/Answers/PsfsAnswerModelSnippet.php:31
+msgid "Question"
+msgstr "Question"
+
+#: src/Snippets/Tracker/Answers/PsfsAnswerModelSnippet.php:59
+#: src/Snippets/Tracker/Answers/PsfsAnswerModelSnippet.php:70
+msgid "Token"
+msgstr "Token"
+
+#: src/StartStop.php:93
+#, php-format
+msgid "A new %s %s track has been created for diagnosis %s."
+msgstr "A new %s %s track has been created for diagnosis %s."
+
+#: src/StartStop.php:107
+#, php-format
+msgid "The new track for diagnosis %s has been set to staff only"
+msgstr "The new track for diagnosis %s has been set to staff only"
+
+#: src/StartStop.php:113
+#, php-format
+msgid "The track for diagnosis %s has been set to staff only"
+msgstr "The track for diagnosis %s has been set to staff only"
+
+#: src/StartStop.php:116
+#, php-format
+msgid ""
+"The new track with diagnosis %s has been changed to the active track/"
+"diagnosis"
+msgstr ""
+"The new track with diagnosis %s has been changed to the active track/"
+"diagnosis"
+
+#: src/StartStop.php:130
+#, php-format
+msgid "The track for diagnosis %s has been set to the new active track"
+msgstr "The track for diagnosis %s has been set to the new active track"
+
+#: src/StartStop.php:138 src/StartStop.php:146
+#, php-format
+msgid ""
+"%s tokens have been copied from the track for diagnosis %s to the new track"
+msgstr ""
+"%s tokens have been copied from the track for diagnosis %s to the new track"
+
+#: src/StartStop.php:152
+#, php-format
+msgid "All current tracks have been linked to the new track"
+msgstr "All current tracks have been linked to the new track"
+
+#: src/StartStop.php:158
+#, php-format
+msgid "All current tracks have been linked together"
+msgstr "All current tracks have been linked together"
+
+#: src/StartStop.php:290
+#, php-format
+msgid "The track for diagnosis %s has been stopped, with code '%s'"
+msgstr "The track for diagnosis %s has been stopped, with code '%s'"
+
+#: src/Tracker/Model/Dependency/OtherFieldValuesDependency.php:102
+msgid "; "
+msgstr "; "
+
+#: src/Tracker/Model/Dependency/OtherFieldValuesDependency.php:143
+msgid "Calculate from"
+msgstr "Calculate from"
+
+#: src/Tracker/Model/Dependency/OtherFieldValuesDependency.php:144
+msgid "Automatically calculate this field using other fields"
+msgstr "Automatically calculate this field using other fields"
+
+#~ msgid "Direct import"
+#~ msgstr "Direct import"
+
+#~ msgid "Assignments"
+#~ msgstr "Assignments"
+
+#~ msgid "randomization block"
+#~ msgid_plural "randomization blocks"
+#~ msgstr[0] "randomization block"
+#~ msgstr[1] "randomization blocks"
+
+#~ msgid "Strata"
+#~ msgstr "Strata"
+
+#~ msgid "stratum"
+#~ msgid_plural "strata"
+#~ msgstr[0] "stratum"
+#~ msgstr[1] "strata"
+
+#~ msgid "Randomization studies"
+#~ msgstr "Randomization studies"
+
+#~ msgid "randomization study"
+#~ msgid_plural "randomization studies"
+#~ msgstr[0] "randomization study"
+#~ msgstr[1] "randomization studies"
+
+#~ msgid "Randomization values"
+#~ msgstr "Randomization values"
+
+#~ msgid "randomization value"
+#~ msgid_plural "randomization values"
+#~ msgstr[0] "randomization value"
+#~ msgstr[1] "randomization values"
+
+#~ msgid "Study name"
+#~ msgstr "Study name"
+
+#~ msgid "The study name is used to group blocks."
+#~ msgstr "The study name is used to group blocks."
+
+#~ msgid "Stratum / condition"
+#~ msgstr "Stratum / condition"
+
+#~ msgid "A stratum is a track level condition."
+#~ msgstr "A stratum is a track level condition."
+
+#~ msgid "If it does not exist it will be created as an inactive condition."
+#~ msgstr "If it does not exist it will be created as an inactive condition."
+
+#~ msgid "See Track builder: Conditions."
+#~ msgstr "See Track builder: Conditions."
+
+#~ msgid "Assignment id"
+#~ msgstr "Assignment id"
+
+#~ msgid "A unique name identifying the randomization value."
+#~ msgstr "A unique name identifying the randomization value."
+
+#~ msgid "Selection order"
+#~ msgstr "Selection order"
+
+#~ msgid "The order of use within a study, leave empty to add to end of stack."
+#~ msgstr ""
+#~ "The order of use within a study, leave empty to add to end of stack."
+
+#~ msgid ""
+#~ "The order of use within a study, leave empty to add by order of import."
+#~ msgstr ""
+#~ "The order of use within a study, leave empty to add by order of import."
+
+#~ msgid "Assign value"
+#~ msgstr "Assign value"
+
+#~ msgid "The outcome value assigned to a randomization."
+#~ msgstr "The outcome value assigned to a randomization."
+
+#~ msgid "Block Description"
+#~ msgstr "Block Description"
+
+#~ msgid "Optional block description, not used by GemsTracker"
+#~ msgstr "Optional block description, not used by GemsTracker"
+
+#~ msgid "Optional extra information, not used by GemsTracker"
+#~ msgstr "Optional extra information, not used by GemsTracker"
+
+#~ msgid "Block Info"
+#~ msgstr "Block Info"
+
+#~ msgid "Usage"
+#~ msgstr "Usage"
+
+#~ msgid "Maximum"
+#~ msgstr "Maximum"
+
+#~ msgid "0 means unlimited use"
+#~ msgstr "0 means unlimited use"
+
+#~ msgid "Used"
+#~ msgstr "Used"
+
+#~ msgid "Unused"
+#~ msgstr "Unused"
+
+#~ msgid "Total"
+#~ msgstr "Total"
+
+#~ msgid "Randomization export value"
+#~ msgstr "Randomization export value"
+
+#~ msgid "The outcome value assigned to a randomization, used for export."
+#~ msgstr "The outcome value assigned to a randomization, used for export."
+
+#~ msgid "Randomization value label"
+#~ msgstr "Randomization value label"
+
+#~ msgid "The outcome label shown in the field."
+#~ msgstr "The outcome label shown in the field."
+
+#~ msgid "Block randomization"
+#~ msgstr "Block randomization"
+
+#~ msgid "Studies"
+#~ msgstr "Studies"
+
+#~ msgid "Reset study"
+#~ msgstr "Reset study"
+
+#~ msgid "Values"
+#~ msgstr "Values"
+
+#~ msgid "Grant right to see the outcome of a randomization."
+#~ msgstr "Grant right to see the outcome of a randomization."
+
+#~ msgid "Randomization"
+#~ msgstr "Randomization"
+
+#~ msgid ""
+#~ "Block randomization is used to automatically assign randomization "
+#~ "outcomes to track fields."
+#~ msgstr ""
+#~ "Block randomization is used to automatically assign randomization "
+#~ "outcomes to track fields."
+
+#~ msgid ""
+#~ "The randomization outcome is the free assignment with the lowest "
+#~ "selection order, if the track is valid for the assigment stratum."
+#~ msgstr ""
+#~ "The randomization outcome is the free assignment with the lowest "
+#~ "selection order, if the track is valid for the assigment stratum."
+
+#~ msgid "Step 1: Create a study"
+#~ msgstr "Step 1: Create a study"
+
+#~ msgid ""
+#~ "Studies are just labels to allow multiple randomizations in a project."
+#~ msgstr ""
+#~ "Studies are just labels to allow multiple randomizations in a project."
+
+#~ msgid ""
+#~ "If an assignment import contains a new study it will automatically be "
+#~ "created."
+#~ msgstr ""
+#~ "If an assignment import contains a new study it will automatically be "
+#~ "created."
+
+#~ msgid "Step 2: Create / design strata"
+#~ msgstr "Step 2: Create / design strata"
+
+#~ msgid "Strata are track-level conditions."
+#~ msgstr "Strata are track-level conditions."
+
+#~ msgid ""
+#~ "You can create these conditions both here and in the Track builder "
+#~ "Conditions page."
+#~ msgstr ""
+#~ "You can create these conditions both here and in the Track builder "
+#~ "Conditions page."
+
+#~ msgid "Create a track condition on age, location, etc..."
+#~ msgstr "Create a track condition on age, location, etc..."
+
+#~ msgid ""
+#~ "If an assignment import contains a new stratum an inactive skeleton "
+#~ "stratum will automatically be created."
+#~ msgstr ""
+#~ "If an assignment import contains a new stratum an inactive skeleton "
+#~ "stratum will automatically be created."
+
+#~ msgid "Step 3: Determine the outcome values"
+#~ msgstr "Step 3: Determine the outcome values"
+
+#~ msgid "Per study you can define the outcome values used."
+#~ msgstr "Per study you can define the outcome values used."
+
+#~ msgid "The export values must be unique per study."
+#~ msgstr "The export values must be unique per study."
+
+#~ msgid ""
+#~ "The label value is what is shown to the users who are allowed to see the "
+#~ "the outcomes."
+#~ msgstr ""
+#~ "The label value is what is shown to the users who are allowed to see the "
+#~ "the outcomes."
+
+#~ msgid ""
+#~ "If an assignment import contains a new value, this value will be created."
+#~ msgstr ""
+#~ "If an assignment import contains a new value, this value will be created."
+
+#~ msgid "Step 4: Create assignments"
+#~ msgstr "Step 4: Create assignments"
+
+#~ msgid "Randomization values are assigned from the assignments table."
+#~ msgstr "Randomization values are assigned from the assignments table."
+
+#~ msgid "Assignments have to satisfy a stratum to be used."
+#~ msgstr "Assignments have to satisfy a stratum to be used."
+
+#~ msgid ""
+#~ "The assignment with the lowest order that has free uses is used first."
+#~ msgstr ""
+#~ "The assignment with the lowest order that has free uses is used first."
+
+#~ msgid "The id and value of a used assignment cannot be changed."
+#~ msgstr "The id and value of a used assignment cannot be changed."
+
+#~ msgid ""
+#~ "During assignment import you can fill this table without first taking the "
+#~ "other steps."
+#~ msgstr ""
+#~ "During assignment import you can fill this table without first taking the "
+#~ "other steps."
+
+#~ msgid "Step 5: Create the track fields"
+#~ msgstr "Step 5: Create the track fields"
+
+#~ msgid ""
+#~ "To use randomization values with a track, add a Randomization type track "
+#~ "field."
+#~ msgstr ""
+#~ "To use randomization values with a track, add a Randomization type track "
+#~ "field."
+
+#~ msgid ""
+#~ "Make sure all fields used by strata are placed before the Randomization "
+#~ "field."
+#~ msgstr ""
+#~ "Make sure all fields used by strata are placed before the Randomization "
+#~ "field."
+
+#~ msgid "Select a study to use, you may use one study in multiple fields."
+#~ msgstr "Select a study to use, you may use one study in multiple fields."
+
+#~ msgid "(all studies)"
+#~ msgstr "(all studies)"
+
+#~ msgid "(all strata)"
+#~ msgstr "(all strata)"
+
+#~ msgid "Maxed out"
+#~ msgstr "Maxed out"
+
+#~ msgid "Unlimited use"
+#~ msgstr "Unlimited use"
+
+#~ msgid "(any usage)"
+#~ msgstr "(any usage)"
+
+#~ msgid "(any active)"
+#~ msgstr "(any active)"
+
+#~ msgid "Reset the study NOW!"
+#~ msgstr "Reset the study NOW!"
+
+#~ msgid "Enter the name of the study"
+#~ msgstr "Enter the name of the study"
+
+#~ msgid ""
+#~ "Resetting a study clears all randomizations assignments to track fields."
+#~ msgstr ""
+#~ "Resetting a study clears all randomizations assignments to track fields."
+
+#~ msgid "'%value%' is not an existing study!"
+#~ msgstr "'%value%' is not an existing study!"
+
+#~ msgid "Do you want to reset a study?"
+#~ msgstr "Do you want to reset a study?"
+
+#, php-format
+#~ msgid "Reset all randomization values for study %s."
+#~ msgstr "Reset all randomization values for study %s."
+
+#, php-format
+#~ msgid "Reset %d assignment(s) and %d track field(s)."
+#~ msgstr "Reset %d assignment(s) and %d track field(s)."
+
+#~ msgid "Study Blocks"
+#~ msgstr "Study Blocks"
+
+#~ msgid "Select the study name for this randomization"
+#~ msgstr "Select the study name for this randomization"
+
+#~ msgid "Block id"
+#~ msgstr "Block id"
+
+#~ msgid "Block value"
+#~ msgstr "Block value"
+
+#~ msgid " - outcomes: "
+#~ msgstr " - outcomes: "
+
+#~ msgid "Select the track conditions for selected strata"
+#~ msgstr "Select the track conditions for selected strata"
