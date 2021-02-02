@@ -139,7 +139,7 @@ class UserLoginByKeyRepository extends \MUtil_Translate_TranslateableAbstract
             $mailTemplateCode = $this->mailTemplateCode;
         }
 
-        if ($mail->setTemplateByCode($this->mailTemplateCode)) {
+        if ($mail->setTemplateByCode($mailTemplateCode)) {
             $mail->send();
 
             return true;
