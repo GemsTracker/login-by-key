@@ -87,9 +87,9 @@ class UserLoginByKeyRepository extends \MUtil_Translate_TranslateableAbstract
             'gup_login_key' => null,
             'gup_login_key_valid_until' => null,
         ],
-        [
-            'gup_id_user' => $user->getUserLoginId(),
-        ]);
+            [
+                'gup_id_user' => $user->getUserLoginId(),
+            ]);
     }
 
     public function setLoginKey(\Gems_User_User $user, $validUntilInterval = null)
@@ -115,7 +115,7 @@ class UserLoginByKeyRepository extends \MUtil_Translate_TranslateableAbstract
             'gup_login_key_valid_until' => $validUntilDateTime->format('Y-m-d H:i:s'),
         ],
             [
-                'gup_id_user' => $user->getUserLoginId(),
+                'gup_id_user = ?' => $user->getUserLoginId(),
             ]);
 
         if ($result) {
@@ -127,7 +127,7 @@ class UserLoginByKeyRepository extends \MUtil_Translate_TranslateableAbstract
 
     public function sendUserLoginEmail(\Gems_User_User $user, $validUntilInterval = null, $mailTemplateCode = null)
     {
-        $mail = $this->loader->getMailLoader()->getMailer('userLoginKey', $user->getUserId());
+        $mail = $this->loader->getMailLoader()->getMailer('userLoginKey', $user);
 
         $key = $this->setLoginKey($user, $validUntilInterval);
         $mail->setKey($key);

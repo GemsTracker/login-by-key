@@ -3,7 +3,7 @@
 namespace LoginByKey\Mail;
 
 
-class UserLoginKeyMailer extends \Gems_Mail_StaffMailer
+class UserLoginKeyMailer extends \Gems_Mail_StaffPasswordMailer
 {
     protected $key = '';
 
@@ -13,10 +13,22 @@ class UserLoginKeyMailer extends \Gems_Mail_StaffMailer
 
     protected $url = '';
 
+    public function __construct(\Gems_User_User $user)
+    {
+        $this->user = $user;
+    }
+
+
     public function afterRegistry()
     {
-        parent::afterRegistry();
-        $this->addMailFields($this->getLoginKeyMailFields());
+        \Gems_Mail_MailerAbstract::afterRegistry();
+
+        $mailFields = $this->user->getMailFields();
+        $this->addMailFields($mailFields);
+
+        $this->setFrom($this->user->getFrom());
+        $this->addTo($this->user->getEmailAddress(), $this->user->getFullName());
+        $this->setLanguage($this->user->getLocale());
     }
 
     /**
