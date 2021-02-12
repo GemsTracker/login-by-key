@@ -16,7 +16,7 @@ class LoginByKeyController extends \Gems_Controller_Action
     protected $indexSnippets = [
         'Login\\UserRequestLoginKeyFormSnippet',
         'Login\\TwoFactorCheckSnippet',
-        'Login\\CheckPasswordChangeRequiredSnippet',
+        //'Login\\CheckPasswordChangeRequiredSnippet',
         'Login\\SetAsCurrentUserSnippet',
         'Login\\RedirectToRequestSnippet',
         'Login\\GotoStartPageSnippet',
