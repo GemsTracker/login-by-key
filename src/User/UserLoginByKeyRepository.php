@@ -75,6 +75,27 @@ class UserLoginByKeyRepository extends \MUtil_Translate_TranslateableAbstract
     }
 
     /**
+     * Logins a user from a login key
+     *
+     * @param $loginKey
+     * @return bool
+     */
+    public function authenticateByLoginKey($loginKey)
+    {
+        if ($loginKey) {
+            $hashedkey = $this->hashKey($loginKey);
+
+            $user = $this->getUserByLoginKey($hashedkey);
+
+            if ($user->isActive()) {
+                $this->removeLoginKeyFromUser($user);
+                return true;
+            }
+        }
+        return false;
+    }
+
+    /**
      * Remove a login key and its validity from a user
      *
      * @param \Gems_User_User $user
