@@ -1,6 +1,6 @@
 <?php
 
-namespace LoginByKey\User\Form;
+namespace Gems\LoginByKey\User\Form;
 
 use MUtil\Translate\TranslateableTrait;
 

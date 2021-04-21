@@ -1,6 +1,6 @@
 <?php
 
-namespace LoginByKey\User\Validate;
+namespace Gems\LoginByKey\User\Validate;
 
 class UserKeyRequestValidator implements \Zend_Validate_Interface
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace LoginByKey\Snippets\Login;
+namespace Gems\LoginByKey\Snippets\Login;
 
 
-use LoginByKey\User\UserLoginByKeyRepository;
+use Gems\LoginByKey\User\UserLoginByKeyRepository;
 use Gems\Snippets\FormSnippetAbstract;
-use LoginByKey\User\Form\LoginKeyForm;
+use Gems\LoginByKey\User\Form\LoginKeyForm;
 use Gems\User\LoginStatusTracker;
-use LoginByKey\User\Validate\UserKeyRequestValidator;
+use Gems\LoginByKey\User\Validate\UserKeyRequestValidator;
 
 class UserRequestLoginKeyFormSnippet extends FormSnippetAbstract
 {

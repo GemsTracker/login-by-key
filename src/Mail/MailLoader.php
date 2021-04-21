@@ -1,6 +1,6 @@
 <?php
 
-namespace LoginByKey\Mail;
+namespace Gems\LoginByKey\Mail;
 
 /**
  *

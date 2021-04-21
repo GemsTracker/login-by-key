@@ -1,6 +1,6 @@
 <?php
 
-namespace LoginByKey\User;
+namespace Gems\LoginByKey\User;
 
 
 trait CanLoginByKey

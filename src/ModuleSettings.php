@@ -1,7 +1,7 @@
 <?php
 
 
-namespace LoginByKey;
+namespace Gems\LoginByKey;
 
 use Gems\Modules\ModuleSettingsAbstract;
 

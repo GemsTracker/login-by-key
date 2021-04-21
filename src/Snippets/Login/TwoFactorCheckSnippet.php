@@ -1,6 +1,6 @@
 <?php
 
-namespace LoginByKey\Snippets\Login;
+namespace Gems\LoginByKey\Snippets\Login;
 
 
 class TwoFactorCheckSnippet extends \Gems\Snippets\Login\TwoFactorCheckSnippet

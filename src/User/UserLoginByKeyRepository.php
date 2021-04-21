@@ -1,9 +1,9 @@
 <?php
 
-namespace LoginByKey\User;
+namespace Gems\LoginByKey\User;
 
 
-use LoginByKey\Mail\UserLoginKeyMailer;
+use Gems\LoginByKey\Mail\UserLoginKeyMailer;
 
 class UserLoginByKeyRepository extends \MUtil_Translate_TranslateableAbstract
 {
