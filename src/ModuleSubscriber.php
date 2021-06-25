@@ -35,7 +35,7 @@ class ModuleSubscriber implements EventSubscriberInterface
         $translateAdapter = $event->getTranslatorAdapter();
 
         $indexPage = $menu->findController('index', 'login');
-        $indexPage->addPage($translateAdapter->_('Login by key'), 'pr.nologin', 'login-by-key', 'index');
+        $indexPage->addPage($translateAdapter->_('Login by key'), 'pr.login-by-key', 'login-by-key', 'index');
     }
 
     /**
