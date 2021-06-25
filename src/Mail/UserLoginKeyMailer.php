@@ -13,14 +13,20 @@ class UserLoginKeyMailer extends \Gems_Mail_StaffPasswordMailer
 
     protected $url = '';
 
-    public function __construct(\Gems_User_User $user)
+    public function __construct($user)
     {
-        $this->user = $user;
+        if ($user instanceof \Gems_User_User) {
+            $this->user = $user;
+        }
     }
 
 
     public function afterRegistry()
     {
+        if (!$this->user instanceof \Gems_User_User) {
+            $this->user = $this->loader->getUserLoader()->getUser(null, null);
+        }
+
         \Gems_Mail_MailerAbstract::afterRegistry();
 
         $mailFields = $this->user->getMailFields();
