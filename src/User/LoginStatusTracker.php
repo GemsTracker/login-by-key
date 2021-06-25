@@ -17,7 +17,7 @@ class LoginStatusTracker extends \Gems\User\LoginStatusTracker
      */
     public function isLoginByKey()
     {
-        return $this->_session->data['loginByKey'];
+        return isset($this->_session->data['loginByKey']) && $this->_session->data['loginByKey'];
     }
 
     /**
