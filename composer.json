@@ -12,7 +12,8 @@
     "minimum-stability": "dev",
     "require": {
         "php": "^7.0",
-        "gemstracker/gemstracker": ">= 1.9.0 || dev-r1.9.0 || dev-r1.9.1 || dev-master"
+        "gemstracker/gemstracker": ">= 1.9.0 || dev-r1.9.0 || dev-r1.9.1 || dev-master",
+        "magnafacta/zalt-loader": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "3.7.*"
@@ -21,5 +22,11 @@
         "psr-4": {
             "Gems\\LoginByKey\\": "src"
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/MagnaFacta/zalt-loader.git"
+        }
+    ]
 }

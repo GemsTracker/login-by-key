@@ -8,6 +8,7 @@ use Gems\Snippets\FormSnippetAbstract;
 use Gems\LoginByKey\User\Form\LoginKeyForm;
 use Gems\User\LoginStatusTracker;
 use Gems\LoginByKey\User\Validate\UserKeyRequestValidator;
+use Zalt\Loader\ProjectOverloader;
 
 class UserRequestLoginKeyFormSnippet extends FormSnippetAbstract
 {
@@ -30,6 +31,11 @@ class UserRequestLoginKeyFormSnippet extends FormSnippetAbstract
      * @var LoginStatusTracker
      */
     protected $loginStatusTracker;
+
+    /**
+     * @var ProjectOverloader
+     */
+    protected $overLoader;
 
     /**
      * @var \Zend_Controller_Request_Abstract
@@ -71,9 +77,7 @@ class UserRequestLoginKeyFormSnippet extends FormSnippetAbstract
         parent::afterRegistry();
         $this->saveLabel = $this->_('Request login url');
 
-        $userLoginByKeyRepository = new UserLoginByKeyRepository();
-        $this->loader->applySource($userLoginByKeyRepository);
-        $this->userLoginByKeyRepository = $userLoginByKeyRepository;
+        $this->getUserLoginByKeyRepository();
     }
 
     protected function addFormElements(\Zend_Form $form)
@@ -99,6 +103,17 @@ class UserRequestLoginKeyFormSnippet extends FormSnippetAbstract
     protected function getTitle()
     {
         return $this->_('Login');
+    }
+
+    /**
+     * @return UserLoginByKeyRepository
+     */
+    protected function getUserLoginByKeyRepository()
+    {
+        if (!$this->userLoginByKeyRepository) {
+            $this->userLoginByKeyRepository = $this->overLoader->create('User\\UserLoginByKeyRepository');
+        }
+        return $this->userLoginByKeyRepository;
     }
 
     /**
