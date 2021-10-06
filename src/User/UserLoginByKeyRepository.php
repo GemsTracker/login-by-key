@@ -109,7 +109,7 @@ class UserLoginByKeyRepository extends \MUtil_Translate_TranslateableAbstract
             'gup_login_key_valid_until' => null,
         ],
             [
-                'gup_id_user' => $user->getUserLoginId(),
+                'gup_id_user = ?' => $user->getUserLoginId(),
             ]);
     }
 
