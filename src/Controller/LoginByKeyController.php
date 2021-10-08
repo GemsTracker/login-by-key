@@ -5,6 +5,7 @@ namespace Gems\LoginByKey\Controller;
 
 use Gems\LoginByKey\User\Form\LoginKeyForm;
 use Gems\LoginByKey\User\LoginStatusTracker;
+use Zalt\Loader\ProjectOverloader;
 
 class LoginByKeyController extends \Gems_Controller_Action
 {
@@ -12,6 +13,11 @@ class LoginByKeyController extends \Gems_Controller_Action
      * @var \Gems_Loader
      */
     public $loader;
+
+    /**
+     * @var ProjectOverloader
+     */
+    public $overLoader;
 
     protected $indexParams = [
         'loginKeyForm'       => 'createLoginKeyForm',
@@ -34,7 +40,7 @@ class LoginByKeyController extends \Gems_Controller_Action
     protected function createLoginKeyForm()
     {
         if (!$this->loginKeyForm) {
-            $form = new LoginKeyForm();
+            $form = $this->overLoader->create('User\\Form\\LoginKeyForm');
             $this->loader->applySource($form);
             $this->loginKeyForm = $form;
         }
