@@ -9,19 +9,19 @@ class UserKeyRequestValidator implements \Zend_Validate_Interface
      *
      * @var string
      */
-    private $_message;
+    protected $_message;
 
     /**
      *
      * @var \Gems_User_Validate_GetUserInterface
      */
-    private $_userSource;
+    protected $_userSource;
 
     /**
      *
      * @var \Zend_Translate
      */
-    private $translate;
+    protected $translate;
 
     /**
      *
