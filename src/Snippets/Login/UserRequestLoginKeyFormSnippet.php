@@ -183,7 +183,7 @@ class UserRequestLoginKeyFormSnippet extends FormSnippetAbstract
     {
         $user = $this->_form->getUser();
 
-        $validator = new UserKeyRequestValidator($this->_form, $this->translate);
+        $validator = $this->overLoader->create('User\\Validate\\UserKeyRequestValidator', $this->_form, $this->translate);
         $validUser = $validator->isValid(null, $this->request->getPost());
         $errors = null;
 
