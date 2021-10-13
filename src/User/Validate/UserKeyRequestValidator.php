@@ -61,7 +61,7 @@ class UserKeyRequestValidator implements \Zend_Validate_Interface
 
         $user = $this->_userSource->getUser();
 
-        If (! ($user->isActive() && $user->canLoginByKey() && $user->isAllowedOrganization($context['organization']))) {
+        if (! ($user->isActive() && $user->canLoginByKey() && $user->isAllowedOrganization($context['organization']))) {
             $this->_message = $this->translate->_('User not found or no e-mail address known or user cannot login.');
         }
 
