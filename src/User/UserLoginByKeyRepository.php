@@ -3,7 +3,7 @@
 namespace Gems\LoginByKey\User;
 
 
-use Gems\LoginByKey\Mail\UserLoginKeyMailer;
+use Gems\LoginByKey\Mail\LoginKeyMailerInterface;
 
 class UserLoginByKeyRepository extends \MUtil_Translate_TranslateableAbstract
 {
@@ -174,7 +174,7 @@ class UserLoginByKeyRepository extends \MUtil_Translate_TranslateableAbstract
         }
     }
 
-    protected function setMailValidityUnit(UserLoginKeyMailer $mail, $validUntilInterval = null)
+    protected function setMailValidityUnit(LoginKeyMailerInterface $mail, $validUntilInterval = null)
     {
         if ($validUntilInterval === null) {
             $validUntilInterval = $this->keyValidInterval;

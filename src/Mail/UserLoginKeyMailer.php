@@ -3,7 +3,7 @@
 namespace Gems\LoginByKey\Mail;
 
 
-class UserLoginKeyMailer extends \Gems_Mail_StaffPasswordMailer
+class UserLoginKeyMailer extends \Gems_Mail_StaffPasswordMailer implements LoginKeyMailerInterface
 {
     use UserLoginKeyMailerTrait;
 

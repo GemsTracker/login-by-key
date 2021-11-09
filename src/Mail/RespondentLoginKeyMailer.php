@@ -2,14 +2,14 @@
 
 namespace Gems\LoginByKey\Mail;
 
-class RespondentLoginKeyMailer extends \Gems_Mail_RespondentMailer
+class RespondentLoginKeyMailer extends \Gems_Mail_RespondentMailer implements LoginKeyMailerInterface
 {
     use UserLoginKeyMailerTrait;
 
     public function __construct(\Gems_User_User $user)
     {
-        $this->organizationId = $user->getLoginName();
-        $this->patientId = $user->getCurrentOrganization();
+        $this->organizationId = $user->getCurrentOrganization()->getId();
+        $this->patientId = $user->getLoginName();
         $this->user = $user;
     }
 
