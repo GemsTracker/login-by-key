@@ -2,18 +2,16 @@
 
 namespace Gems\LoginByKey\Mail;
 
-
-class UserLoginKeyMailer extends \Gems_Mail_StaffPasswordMailer
+class RespondentLoginKeyMailer extends \Gems_Mail_RespondentMailer
 {
     use UserLoginKeyMailerTrait;
 
-    public function __construct($user)
+    public function __construct(\Gems_User_User $user)
     {
-        if ($user instanceof \Gems_User_User) {
-            $this->user = $user;
-        }
+        $this->organizationId = $user->getLoginName();
+        $this->patientId = $user->getCurrentOrganization();
+        $this->user = $user;
     }
-
 
     public function afterRegistry()
     {
@@ -21,7 +19,7 @@ class UserLoginKeyMailer extends \Gems_Mail_StaffPasswordMailer
             $this->user = $this->loader->getUserLoader()->getUser(null, null);
         }
 
-        \Gems_Mail_MailerAbstract::afterRegistry();
+        parent::afterRegistry();
 
         $mailFields = $this->user->getMailFields();
         $this->addMailFields($mailFields);

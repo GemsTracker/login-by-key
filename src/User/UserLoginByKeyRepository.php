@@ -148,7 +148,11 @@ class UserLoginByKeyRepository extends \MUtil_Translate_TranslateableAbstract
 
     public function sendUserLoginEmail(\Gems_User_User $user, $validUntilInterval = null, $mailTemplateCode = null)
     {
-        $mail = $this->loader->getMailLoader()->getMailer('userLoginKey', $user);
+        if ($user->getUserDefinitionClass() instanceof \Gems_User_RespondentUserDefinition) {
+            $mail = $this->loader->getMailLoader()->getMailer('respondentLoginKey', $user);
+        } else {
+            $mail = $this->loader->getMailLoader()->getMailer('userLoginKey', $user);
+        }
 
         $key = $this->setLoginKey($user, $validUntilInterval);
         $mail->setKey($key);
