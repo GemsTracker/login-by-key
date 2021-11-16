@@ -17,5 +17,6 @@ class MailLoader extends \Gems_Mail_MailLoader
     {
         parent::afterRegistry();
         $this->mailTargets['userLoginKey'] = 'User login key';
+        $this->mailTargets['respondentLoginKey'] = 'Respondent login key';
     }
 }
