@@ -129,6 +129,11 @@ class UserLoginByKeyRepository extends \MUtil_Translate_TranslateableAbstract
 
         $validUntilDateTime = $now->add(new \DateInterval($validUntilInterval));
 
+        // Set an empty password if none is set. You cannot login directly with an empty password.
+        if (!$user->hasPassword()) {
+            $user->setPassword(null);
+        }
+
         $hashedKey = $this->hashKey($key);
 
         $result = $this->db->update('gems__user_passwords', [
